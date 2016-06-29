@@ -3,7 +3,7 @@ services:
   note:
     image: jupyter/datascience-notebook
     volumes:
-      - "~/notebooks:/notebooks"
+      - "~/notebooks:/home/jovyan/work"
     ports:
       - 8888:8888
     environment:
